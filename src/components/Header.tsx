@@ -29,7 +29,7 @@ const Header = () => {
       <div className="container flex items-center justify-between py-4">
         <div className="flex items-center gap-2">
           <a href="#home" className="text-xl font-bold text-portfolio-primary block">
-            <span className="uppercase">Pedro</span><br />
+            <span className="uppercase"><Pedro/></span><br />
             <span className="uppercase text-foreground">Lucas</span>
           </a>
         </div>
