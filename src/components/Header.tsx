@@ -1,3 +1,4 @@
+
 import { useState, useEffect } from 'react';
 import { Menu, X } from 'lucide-react';
 
@@ -27,8 +28,9 @@ const Header = () => {
     <header className={`fixed top-0 left-0 z-50 w-full transition-all duration-300 ${scrolled ? 'bg-background/95 backdrop-blur-sm shadow-sm' : 'bg-transparent'}`}>
       <div className="container flex items-center justify-between py-4">
         <div className="flex items-center gap-2">
-          <a href="#home" className="text-xl font-bold text-portfolio-primary">
-            <span className="uppercase">&lt;RODRIGO /&gt;</span> <span className="text-foreground">AZEVEDO</span>
+          <a href="#home" className="text-xl font-bold text-portfolio-primary block">
+            <span className="uppercase">Pedro</span><br />
+            <span className="uppercase text-foreground">Lucas</span>
           </a>
         </div>
 
