@@ -1,4 +1,3 @@
-
 import { Github, Linkedin, Twitter } from "lucide-react";
 
 const Footer = () => {
@@ -10,7 +9,7 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row justify-between items-center gap-6">
           <div>
             <a href="#home" className="text-xl font-bold text-portfolio-primary">
-              Dev<span className="text-foreground">Portfolio</span>
+              <span className="uppercase">&lt;RODRIGO /&gt;</span> <span className="text-foreground">AZEVEDO</span>
             </a>
             <p className="text-muted-foreground mt-2 max-w-md">
               Desenvolvedor Full Stack especializado em criar experiências digitais

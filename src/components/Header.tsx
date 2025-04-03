@@ -1,4 +1,3 @@
-
 import { useState, useEffect } from 'react';
 import { Menu, X } from 'lucide-react';
 
@@ -29,7 +28,7 @@ const Header = () => {
       <div className="container flex items-center justify-between py-4">
         <div className="flex items-center gap-2">
           <a href="#home" className="text-xl font-bold text-portfolio-primary">
-            Dev<span className="text-foreground">Portfolio</span>
+            <span className="uppercase">&lt;RODRIGO /&gt;</span> <span className="text-foreground">AZEVEDO</span>
           </a>
         </div>
 
