@@ -28,8 +28,8 @@ const Header = () => {
       <div className="container flex items-center justify-between py-4">
         <div className="flex items-center gap-2">
           <a href="#home" className="text-xl font-bold text-portfolio-primary block">
-            <span className="uppercase text-3xl font-bold text-portfolio-primary">&lt;Pedro/&gt;</span><br />
-            <span className="uppercase text-sm text-foreground">Lucas</span>
+            <span className="uppercase text-3xl font-bold text-portfolio-primary">&lt;Pedro Lucas/&gt;</span><br />
+            <span className="uppercase text-sm text-foreground">Coder</span>
           </a>
         </div>
 
@@ -54,9 +54,7 @@ const Header = () => {
 
       {/* Mobile Navigation */}
       <div
-        className={`fixed inset-0 z-40 transform bg-background/95 backdrop-blur-sm transition-transform duration-300 md:hidden ${
-          isMenuOpen ? 'translate-x-0' : 'translate-x-full'
-        }`}
+        className={`fixed inset-0 z-40 transform bg-background/95 backdrop-blur-sm transition-transform duration-300 md:hidden ${isMenuOpen ? 'translate-x-0' : 'translate-x-full'}`}
       >
         <div className="container flex h-full flex-col justify-center gap-8 text-center">
           <a 
